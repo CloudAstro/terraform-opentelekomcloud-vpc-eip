@@ -1,13 +1,13 @@
 module "vpc" {
   source  = "CloudAstro/vpc/opentelekomcloud"
-  version = "1.1.0"
+  version = "1.1.1"
   name    = "vpc-example"
   cidr    = "10.10.0.0/24"
 }
 
 module "subnet" {
   source     = "CloudAstro/vpc-subnet/opentelekomcloud"
-  version    = "1.1.0"
+  version    = "1.1.1"
   name       = "snet-example"
   cidr       = "10.10.0.0/26"
   gateway_ip = "10.10.0.1"
@@ -16,7 +16,7 @@ module "subnet" {
 
 module "elb" {
   source        = "CloudAstro/elastic-loadbalancer/opentelekomcloud"
-  version       = "1.1.0"
+  version       = "1.1.1"
   vip_subnet_id = module.subnet.vpc_subnet.subnet_id
 }
 
