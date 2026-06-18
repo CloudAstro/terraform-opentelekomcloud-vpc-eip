@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/CloudAstro/terraform-opentelekomcloud-vpc-eip/compare/v1.1.0...v1.1.1) (2026-06-18)
+
+
+### Bug Fixes
+
+* repoint module for registry release ([54a8c2e](https://github.com/CloudAstro/terraform-opentelekomcloud-vpc-eip/commit/54a8c2e250b48b03d6acfe23f21f7c947a7c9a45))
+
 ## [1.1.0](https://github.com/CloudAstro/terraform-opentelekomcloud-vpc-eip/compare/v1.0.0...v1.1.0) (2026-06-17)
 
 
